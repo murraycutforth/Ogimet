@@ -1,3 +1,5 @@
+import shutil
+
 import requests
 from lxml import html
 from calendar import monthrange
@@ -6,6 +8,7 @@ from datetime import datetime
 import os
 from sys import argv
 import logging
+from pathlib import Path
 
 
 logger = logging.getLogger(__name__)
@@ -31,63 +34,76 @@ class Downloader():
         r = ((d.month, d.year) for d in rrule(MONTHLY,dtstart=start, until=end))
         return r
 
-    def tryGetTable(self, tree, year, month, attempt=25):
+    def tryGetTable(self, year, month):
         logger.debug("Calling tryGetTable")
-        
-        for i in range(attempt):
-            logger.debug(f"i={i}")
 
-            try:
-                table = tree.xpath('//table[@border="0"]')[0]
-            except IndexError as e:
-                logger.debug(f"Error: {e}, retrying.")
-                tree = self.requestData(self.linkConstructor(year, month))
-                continue
+        link = self.linkConstructor(year, month)
 
-            if table is None:
-                logger.debug("Table is none! Retrying.")
-                tree = self.requestData(self.linkConstructor(year, month))
-                continue
+        logger.debug(f"Contructed link: {link}")
 
-            logger.debug(f"Returning table={table}")
-            return table
+        tree = self.requestData(link)
 
-        return "Fail"
+        try:
+            table = tree.xpath('//table[@border="0"]')[0]
+        except IndexError as e:
+            logger.error(f"Error- no table found: {e}")
+            raise e
 
-    def requestData(self,link, attempt=25):
-        logger.debug("Calling requestData")
+        logger.debug(f"Returning table={table}")
+        return table
+
+
+    def requestData(self,link, attempt=5):
+        logger.debug(f"Calling requestData on {link}")
+        logger.debug(f"attempt={attempt}")
 
         if attempt == 0:
-            return "Fail"
+            return None
 
-        page = requests.get(link)
+        try:
+            page = requests.get(link, timeout=5)
+        except requests.exceptions.ReadTimeout:
+            return self.requestData(link, attempt=attempt - 1)
+        except requests.exceptions.ConnectTimeout:
+            return self.requestData(link, attempt=attempt - 1)
 
-        logger.debug(f"Returned content = {page.content[:50]}")
+        logger.debug(f"Returned content = {page.content[:100]}")
 
-        noSummary=page.content.__str__().__contains__('summary')
-        
-        if any( [page.status_code != 200, not noSummary ]):
-            logger.debug(f"Retrying requestData. status_code = {page.status_code}. noSummary = {noSummary}")
-            requestData(link, attempt=attempt-1)
+        if page.status_code != 200:
+            logger.debug(f"Retrying requestData. status_code = {page.status_code}.")
+            return self.requestData(link, attempt=attempt-1)
 
         tree = html.fromstring(page.content)
         return tree
 
-    def running_all(self, end_year, end_month, start_year=2000, start_month=1,\
-    stationid="97240", location=os.getcwd()):
-        self.stationid = stationid
-        #make directory
-        dir_name = stationid + "-" + str(start_year) + str(start_month) + "-"+\
-         str(end_year)+ str(end_month)
-        try:
-            os.mkdir(location + self.sep + dir_name )
-        except FileExistsError:
-            print("direcory already exist")
-        self.location = location + self.sep + dir_name
 
+    def running_all(self, end_year, end_month, start_year=2000, start_month=1, stationid="", location=os.getcwd()) -> bool:
+        logger.info(f"Downloading data for station={stationid}, {start_year}-{start_month} to {end_year}-{end_month}")
+        self.stationid = stationid
+
+        # Make dir
+        outdir = Path(location) / stationid / (str(start_year) + "-" + str(start_month) + "-"+ str(end_year) + "-" + str(end_month))
+
+        if outdir.exists():
+            logger.error(f"Directory {outdir} already exists. Skipping.")
+            raise FileExistsError
+
+        else:
+            outdir.mkdir(parents=True)
+        
+        self.location = str(outdir)
+
+        success = True
         for m in self.month_iter(start_month, start_year, end_month, end_year):
             print("running " + m[1].__str__() + "-" + m[0].__str__() )
-            self.completeRun(m[1], m[0])
+            success = success & self.writeData(m[1], m[0])
+
+        if not success:
+            logger.critical(f"Processing failed. Cleaning up {outdir}")
+            shutil.rmtree(outdir)
+
+
+
 
     def linkConstructor(self, year, month):
         link = "https://www.ogimet.com/cgi-bin/gsynres?lang=en&ind="+ \
@@ -96,119 +112,86 @@ class Downloader():
         "%02d" % monthrange(year, month)[1] + "&hora=00&ord=REV&Send=Send"
         return link
 
-    def requestData(self,link, attempt=25):
-        if attempt == 0:
-            return "Fail"
-        page = requests.get(link)
-        noSummary= page.content.__str__().__contains__('summary')
-        if any( [page.status_code != 200, not noSummary ]):
-            self.requestData(link, attempt=attempt-1)
-        tree = html.fromstring(page.content)
-
-        if tree is None:
-            print(tree)
-            print(link)
-            print(attempt)
-            print(noSummary)
-            print(page)
-            print(page.status_code)
-            assert 0
-
-        return tree
-
-    def completeRun(self, year, month):
-        link = self.linkConstructor(year, month)
-        
-        logger.info(f"Requesting data from: {link}")
-
-        data = self.requestData(link)
-
-        self.writeData(data, year, month, self.location, '')
-
-    def failDetector(self, year, month):
-        with open('report.log', 'a') as report:
-            report.write(year.__str__() + "-" + month.__str__() + "\n")
 
     def getcolum(self, table):
 
         if table is None:
-            print("Table is none!")
+            logger.error("Table is none!")
             assert 0
-
-        try:
-            x = list(table.getchildren()[1][0][:])
-        except AttributeError:
-            print(table)
-            assert 0
+            
+        expected_cols = ['Date', 'Temperature(C)Max', 'Temperature(C)Min', 'Temperature(C)Avg', 'TdAvg(C)', 'Hr.Avg(%)', 'Wind(km/h)Dir.', 'Wind(km/h)Int.', 'Pres.s.lev(Hp)', 'Prec.(mm)', 'VisKm']
 
         colnames = []
         for a in table.getchildren()[1][0][:]:
             if a.text_content().__contains__("Temperature"):
                 for b in table.getchildren()[1][1]:
                     if self.temptcolnames.__contains__(b.text_content()):
-                        col = a.text_content() + b.text_content()
+                        col = a.text_content().strip() + b.text_content()
                         colnames.append(col)
             elif a.text_content().__contains__("Wind"):
                 for b in table.getchildren()[1][1]:
                     if self.windcolnames.__contains__(b.text_content()):
                         col = a.text_content() + b.text_content()
                         colnames.append(col)
-            elif a.text_content().__contains__("summary"):
-                for c in self.sumcolnames:
-                    col = a.text_content() + c
-                    colnames.append(col)
             else:
                 col = a.text_content()
-                colnames.append(col)
+
+                if col in expected_cols:
+                    colnames.append(col)
 
         return colnames
 
-    def writeData(self,tree, year, month, location, basename=''):
+    def writeData(self, year, month) -> bool:
+        logger.debug("Starting writeData")
 
-        if tree == "Fail":
-            self.failDetector(year, month)
-            return 0
-
-        table = self.tryGetTable(tree, year, month)
-         
-        if table == "Fail":
-            self.failDetector(year, month)
-            return 0
-
-        if table is None:
-            print("table is none!")
-            print(tree)
-
-            assert 0
+        try:
+            table = self.tryGetTable(year, month)
+        except IndexError:
+            # No data for this year/month
+            return False
 
         colnames = self.getcolum(table)
 
-        caption = table.getchildren()[0]
+        logger.debug(f"Found column names: {colnames}")
+
+        if len(colnames) <= 3:
+            return False
+
+        assert len(colnames) <= 11, colnames
+
         tr = table.getchildren()[2:monthrange(year, month)[1] + 2]
+
         for a in tr[::-1]:
+            # Each a is a list of table cells, a[i] is the i-th column
             data = {}
-            id = 0
-            for colname in colnames:
+            for id, colname in enumerate(colnames):
                 try:
                     data[colname] = a.getchildren()[id].text_content()
-                except:
-                    data[colname] = 'No Data'
-                id = id + 1
+                except Exception as e:
+                    logger.error(e)
+                    logger.error(colname)
+                    logger.error(id)
+                    logger.error(a)
+                    raise e
 
-            name = self.sep + basename + 'data' + year.__str__() + '-' +\
+            # Check wind direction is as expected
+            if "Wind(km/h)Dir." in data:
+                assert set(data["Wind(km/h)Dir."]) <= set("NSEW-CAL"), data["Wind(km/h)Dir."]
+            
+            # Check percentage is a percentage
+            if "Hr.Avg(%)" in data:
+                assert 0.0 <= float(data["Hr.Avg(%)"]) <= 100.0, data["Hr.Avg(%)"]
+
+            name = self.sep + 'data' + year.__str__() + '-' +\
             "%02d" % month + '-' + data['Date'].split("/")[1] + '.csv'
             self.comb[name]=data
-
 
             for key, value in data.items():
                 timestamp = year.__str__() + "-%02d-" % month + \
                 data['Date'].split("/")[1]
                 self.writecsv(key, timestamp , value)
 
-                #### additional for botir requests
-                if key.__contains__("Prec"):
-                    if value == 'Tr':
-                        value = 0
+        return True
 
     def writecsv(self, key, timestamp, val):
         if not key.endswith("."):
@@ -219,13 +202,13 @@ class Downloader():
         else:
             filename = self.location + self.sep + key + "csv"
 
-
         with open(filename, 'a') as csv_file:
-            if any ( [val == '----' , val == 'No data']):
+            if any([val == '----', val == 'No data']):
                 val = 'NA'
             if val == 'Tr':
                 val = 0
             csv_file.write("%s, %s\n" % (timestamp, val))
+
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)

@@ -1,0 +1,441 @@
+WIGOS ID,WMO INDEX,ICAO,Name,Country,Latitude,Longitude,Altitude,Established,Closed
+0-0-0-MISSING,-----,EGAE,Eglinton / Londonderr,United Kingdom,55-03N,007-09W,9,----,----
+0-0-0-MISSING,-----,EGBE,Coventry Airport ,United Kingdom,52-22N,001-29W,82,----,----
+0-0-0-MISSING,-----,EGBJ,Staverton Private ,United Kingdom,51-54N,002-10W,29,----,----
+0-0-0-MISSING,-----,EGDK,Kemble Royal Air Force Base ,United Kingdom,51-40N,002-03W,133,----,----
+0-20000-0-03716,-----,EGDX,St Athan Royal Air Force Base,United Kingdom,51-24N,003-26W,50,----,----
+0-20000-0-03111,-----,EGEC,Campbeltown,United Kingdom,55-26-14N,005-41-11W,13,----,----
+0-0-0-MISSING,-----,EGFH,Swansea,United Kingdom,51-36N,004-04W,90,----,----
+0-0-0-MISSING,-----,EGGD,Bristol / Lulsgate ,United Kingdom,51-23N,002-43W,189,----,----
+0-0-0-MISSING,-----,EGGP,Liverpool Airport ,United Kingdom,53-20N,002-51W,26,----,----
+0-0-0-MISSING,-----,EGGW,Luton Airport ,United Kingdom,51-52N,000-22W,160,----,----
+0-0-0-MISSING,-----,EGHD,Plymouth / Roborough,United Kingdom,50-25N,004-07W,144,----,----
+0-0-0-MISSING,-----,EGJA,Alderney / Channel Island,United Kingdom,49-43N,002-12W,71,----,----
+0-0-0-MISSING,-----,EGKB,Biggin Hill ,United Kingdom,51-19N,000-02E,183,----,----
+0-0-0-MISSING,-----,EGLC,London City Airport,United Kingdom,51-30N,000-03E,5,----,----
+0-0-0-MISSING,-----,EGMC,Southend-On-Sea ,United Kingdom,51-34N,000-42E,15,----,----
+0-0-0-MISSING,-----,EGMD,Lydd Airport ,United Kingdom,50-57N,000-56E,3,----,----
+0-20000-0-03797,-----,EGMH,"Manston, South East",United Kingdom,51-20-31N,001-20-46E,55,----,----
+0-0-0-MISSING,-----,EGNJ,Humberside,United Kingdom,53-35N,000-21W,31,----,----
+0-0-0-MISSING,-----,EGNM,Leeds And Bradford,United Kingdom,53-52N,001-39W,208,----,----
+0-0-0-MISSING,-----,EGNT,Newcastle ,United Kingdom,55-02N,001-42W,81,----,----
+0-0-0-MISSING,-----,EGNV,Tees-Side,United Kingdom,54-31N,001-25W,37,----,----
+0-0-0-MISSING,-----,EGNX,East Midlands,United Kingdom,52-50N,001-20W,94,----,----
+0-0-0-MISSING,-----,EGOD,Llanbedr,United Kingdom,52-49N,004-08W,9,----,----
+0-826-0-03317,-----,EGOW,Woodvale,United Kingdom,53-34-54N,003-03-20W,11,----,----
+0-20000-0-03105,-----,EGPI,Islay,United Kingdom,55-40-55N,006-15-24W,16,----,----
+0-0-0-MISSING,-----,EGPM,Scatsta / Shetland Island,United Kingdom,60-26N,001-18W,22,----,----
+0-0-0-MISSING,-----,EGPN,Dundee / Riverside,United Kingdom,56-27N,003-01W,4,----,----
+0-0-0-MISSING,-----,EGPT,Perth / Scone ,United Kingdom,56-27N,003-22W,121,----,----
+0-0-0-MISSING,-----,EGPW,Unst Island,United Kingdom,60-44N,000-49W,285,----,----
+0-0-0-MISSING,-----,EGSC,Cambridge,United Kingdom,52-12N,000-11E,15,----,----
+0-0-0-MISSING,-----,EGSY,"Yorkshire and Humberside, Sheffield City",United Kingdom,53-23-39N,001-23-18W,70,----,----
+0-0-0-MISSING,-----,EGTC,Cranfield,United Kingdom,52-04N,000-37W,111,----,----
+0-20000-0-03628,-----,EGTG,Filton Private ,United Kingdom,51-31N,002-35W,69,----,----
+0-0-0-MISSING,-----,EGTH,Hatfeild Private ,United Kingdom,51-46N,000-15W,77,----,----
+0-0-0-MISSING,-----,EGUA,Upper Heyford Royal Air Force Base ,United Kingdom,51-56N,001-15W,134,----,----
+0-0-0-MISSING,-----,EGUO,Colerne,United Kingdom,51-26-21N,002-17-11W,181,----,----
+0-0-0-MISSING,-----,EGUP,Sculthorpe Af Met ,United Kingdom,52-51N,000-46E,65,----,----
+0-0-0-MISSING,-----,EGVG,Woodbridge Royal Air Force Base ,United Kingdom,52-05N,001-24E,29,----,----
+0-0-0-MISSING,-----,EGVI,Greenham Common Royal Air Force Base,United Kingdom,51-23N,001-17W,122,----,----
+0-0-0-MISSING,-----,EGVJ,Bentwaters Royal Air Force Base ,United Kingdom,52-08N,001-26E,26,----,----
+0-826-0-69,-----,EGWC,Cosford Royal Air Force Base,United Kingdom,52-38N,002-18W,83,----,----
+0-0-0-MISSING,-----,EGXF,Cowden,United Kingdom,53-51N,006-06W,15,----,----
+0-0-0-MISSING,-----,EGXN,Newton,United Kingdom,52-58N,000-59W,55,----,----
+0-20000-0-03373,-----,EGXP,Scampton,United Kingdom,53-18-27N,000-33-03W,62,----,----
+0-20000-0-03265,-----,EGXZ,Topcliffe Royal Air Force Base ,United Kingdom,54-12N,001-23W,28,----,----
+0-826-0-25,-----,EGYE,Barkston Heath Royal Air Force Base ,United Kingdom,52-58N,000-34W,112,----,----
+0-0-0-MISSING,-----,EGCN,Doncaster Sheffield / Airport,United Kingdom,53-38-39N,001-00-16W,17,----,----
+0-0-0-MISSING,03001,----,Muckle Flugga,United Kingdom,60-51N,000-53W,53,----,----
+0-20000-0-03002,03002,----,Baltasound,United Kingdom,60-44-53N,000-51-20W,15,1983-01-01,----
+0-20000-0-03003,03003,EGPB,Sumburgh Cape ,United Kingdom,59-52-43N,001-17-57W,7,1971-10-01,1997-01-31
+0-20000-0-03004,03004,----,Collafirth,United Kingdom,60-31-58N,001-23-29W,228,1971-12-01,1983-07-31
+0-20008-0-SIS,03005,----,Lerwick,United Kingdom,60-08-21N,001-11-04W,82,1930-01-01,----
+0-20000-0-03006,03006,----,Sella Ness,United Kingdom,60-26-50N,001-16-39W,7,1979-09-01,2019-06-01
+0-0-0-MISSING,03007,----,Muckle Holm,United Kingdom,60-35N,001-16W,22,----,----
+0-20000-0-03008,03008,----,Fair Isle,United Kingdom,59-31-35N,001-37-38W,57,1974-01-01,----
+0-20000-0-03009,03009,----,North Ronaldsay,United Kingdom,59-21-38N,002-24-53W,11,1988-01-01,2009-12-01
+0-20000-0-03010,03010,----,Sule Skerry,United Kingdom,59-04-56N,004-24-15W,12,1974-02-01,2019-03-26
+0-20000-0-03011,03011,----,North Rona,United Kingdom,59-07-25N,005-49-36W,98,1990-01-01,2009-03-19
+0-20000-0-03013,03013,----,Foula,United Kingdom,60-09-15N,002-04-26W,22,1989-01-01,2003-11-30
+0-20000-0-03014,03014,----,Foula,United Kingdom,60-06-38N,002-03-52W,22,1985-12-01,2016-04-27
+0-20000-0-03017,03017,EGPA,Kirkwall Airport,United Kingdom,58-57-12N,002-54-05W,26,1957-01-01,----
+0-20000-0-03018,03018,----,Radar Drium-A-Starraig,United Kingdom,58-12-36N,006-10-46W,86,----,----
+0-20000-0-03023,03019,----,South Uist,United Kingdom,57-21N,007-22W,4,----,----
+0-20000-0-03020,03020,----,St Kilda,United Kingdom,57-48-40N,008-33-51W,30,1961-01-01,1977-12-31
+0-20000-0-03021,03021,----,Lochboisdale,United Kingdom,57-09-16N,007-18-59W,6,1990-11-01,----
+0-20000-0-03022,03022,EGPL,Benbecula,United Kingdom,57-28-30N,007-22-14W,6,1957-01-01,1996-07-31
+0-20000-0-03023,03023,----,South Uist Range,United Kingdom,57-21-27N,007-23-05W,4,1996-07-16,----
+0-20000-0-03025,03025,----,Butt Of Lewis,United Kingdom,58-30-56N,006-15-43W,16,1969-01-01,1998-01-30
+0-20000-0-03026,03026,EGPO,Stornoway,United Kingdom,58-12-48N,006-19-08W,15,----,----
+0-20000-0-03027,03027,----,Waterstein,United Kingdom,57-26-11N,006-46-09W,83,1990-02-01,2004-02-11
+0-20000-0-03028,03028,----,Neist Point,United Kingdom,57-25-23N,006-47-15W,21,1983-05-01,1989-09-26
+0-20000-0-03029,03029,----,Ardnamurchan,United Kingdom,56-43-32N,006-13-26W,6,1961-01-01,1981-12-31
+0-20000-0-03031,03031,----,Loch Glascarnoch,United Kingdom,57-43-30N,004-53-44W,269,1992-11-01,----
+0-20000-0-03032,03032,----,Rudh Re,United Kingdom,57-51-29N,005-48-46W,16,1966-01-01,1977-10-31
+0-20000-0-03033,03033,----,Diabaig,United Kingdom,57-34-44N,005-41-30W,60,1977-01-02,2022-10-20
+0-20000-0-03034,03034,----,Aultbea,United Kingdom,57-51-32N,005-37-58W,11,1986-11-01,----
+0-20000-0-03035,03035,----,Barra,United Kingdom,57-01-30N,007-26-57W,3,1997-07-01,2007-07-10
+0-20000-0-03037,03037,----,Skye/Lusa,United Kingdom,57-15-24N,005-48-19W,18,1997-06-20,2017-05-03
+0-20000-0-03038,03038,----,Fort William No 4,United Kingdom,56-49-45N,005-04-34W,20,1987-01-01,1990-12-31
+0-20000-0-03039,03039,----,Bealach Na Ba No2,United Kingdom,57-25-05N,005-41-18W,773,2001-07-11,----
+0-20000-0-03040,03040,----,Kilmory,United Kingdom,56-45-30N,006-02-51W,45,1989-01-01,2004-03-23
+0-20000-0-03041,03041,----,Aonach Mor,United Kingdom,56-49-19N,004-58-09W,1130,1992-02-01,----
+0-20000-0-03043,03043,----,Lochcarron,United Kingdom,57-24-03N,005-29-37W,32,1999-03-01,2003-11-07
+0-20000-0-03044,03044,----,Altnaharra,United Kingdom,58-17-16N,004-26-32W,81,1983-09-01,----
+0-20000-0-03046,03046,----,Lochluichart,United Kingdom,57-37-19N,004-49-10W,88,1999-06-01,2003-11-10
+0-20000-0-03047,03047,----,Tulloch Bridge,United Kingdom,56-52-00N,004-42-29W,249,1988-12-02,----
+0-826-0-03049,03049,----,Cape Wrath,United Kingdom,58-38N,005-00W,112,----,----
+0-0-0-MISSING,03054,----,Strathy Point,United Kingdom,58-36N,004-01W,32,----,----
+0-20000-0-03055,03055,----,Rackwick,United Kingdom,58-52-23N,003-23-12W,18,1987-03-02,----
+0-20000-0-03057,03057,----,Foyers,United Kingdom,57-15-41N,004-29-00W,21,2000-01-01,2003-12-23
+0-20000-0-03058,03058,----,Invergordon Harbour,United Kingdom,57-41-12N,004-10-01W,3,1984-11-01,2001-02-05
+0-20000-0-03059,03059,EGPE,Inverness / Dalcross,United Kingdom,57-32-30N,004-03-44W,11,1969-01-01,1994-01-31
+0-20000-0-03060,03060,----,Tummel Bridge,United Kingdom,56-42-23N,004-00-38W,148,1961-01-01,1992-08-31
+0-20000-0-03061,03061,----,Tarbatness,United Kingdom,57-51-52N,003-46-35W,18,1961-01-01,1985-03-31
+0-20000-0-03062,03062,EGQA,Tain Range,United Kingdom,57-49-08N,003-58-00W,4,1989-11-06,----
+0-20000-0-03063,03063,----,Aviemore,United Kingdom,57-12-23N,003-49-41W,228,1982-01-01,----
+0-20000-0-03064,03064,----,Glenmore Lodge,United Kingdom,57-09-51N,003-40-40W,337,1961-01-01,----
+0-20000-0-03065,03065,----,Cairngorm,United Kingdom,57-06-57N,003-38-35W,1237,1992-01-01,----
+0-20000-0-03066,03066,EGQK,Kinloss,United Kingdom,57-38-44N,003-33-48W,7,1959-01-01,----
+0-20000-0-03067,03067,----,Fealar Lodge,United Kingdom,56-54-02N,003-37-43W,560,1963-01-01,1964-12-31
+0-20000-0-03068,03068,EGQS,Lossiemouth,United Kingdom,57-42-41N,003-19-23W,13,1969-01-01,----
+0-20000-0-03070,03070,----,Glenlivet,United Kingdom,57-21-14N,003-20-41W,213,1964-01-01,2008-08-01
+0-20000-0-03072,03072,----,Cairnwell,United Kingdom,56-52-45N,003-25-14W,928,1994-01-01,----
+0-0-0-MISSING,03074,----,Scrabster Harbour,United Kingdom,58-37N,003-33W,10,----,----
+0-20000-0-03075,03075,EGPC,Wick,United Kingdom,58-27-14N,003-05-23W,38,1965-06-11,----
+0-20000-0-03075,03076,----,Temp For 03075,United Kingdom,58-27N,003-06W,39,----,----
+0-20000-0-03077,03077,----,Lybster,United Kingdom,58-18-38N,003-17-06W,85,1993-12-01,2003-12-03
+0-20000-0-03080,03080,----,Aboyne,United Kingdom,57-04-32N,002-50-27W,140,1989-05-01,----
+0-20000-0-03081,03081,----,Braemar,United Kingdom,57-00-21N,003-23-52W,339,1959-01-01,2005-07-01
+0-20000-0-03082,03082,----,Spittal Of Glenshee,United Kingdom,56-45-51N,003-23-49W,308,1998-10-01,1998-12-31
+0-20000-0-03083,03083,----,Huntly,United Kingdom,57-26-58N,002-47-11W,122,1961-01-01,1965-12-31
+0-20000-0-03084,03084,----,Kirmichael No 2,United Kingdom,56-43-10N,003-31-10W,265,1997-11-01,1998-08-31
+0-20000-0-03085,03085,----,Inchmarlo,United Kingdom,57-03-36N,002-32-32W,80,1998-12-02,2005-01-31
+0-20000-0-03086,03086,----,Radar Hill Of Dudwick,United Kingdom,57-25-46N,002-02-24W,177,----,----
+0-20000-0-03088,03088,----,Inverbervie,United Kingdom,56-51-06N,002-15-56W,134,1992-01-01,----
+0-20000-0-03089,03089,----,Usan,United Kingdom,56-40-49N,002-27-07W,47,1965-01-01,1979-06-30
+0-20008-0-ABD,03091,EGPD,Aberdeen / Dyce,United Kingdom,57-12-17N,002-12-19W,66,1957-01-01,----
+0-20000-0-03092,03092,----,Peterhead Harbour,United Kingdom,57-30-08N,001-46-27W,15,1979-02-01,2022-01-17
+0-20000-0-03093,03093,----,Fraserburg,United Kingdom,57-41-50N,002-00-11W,18,1966-01-01,1990-07-31
+0-20000-0-03094,03094,----,Rosehearty,United Kingdom,57-41-52N,002-07-21W,4,1995-06-01,2012-02-28
+0-20000-0-03095,03095,----,Rattray Head,United Kingdom,57-36-49N,001-50-45W,26,1957-01-01,1967-12-31
+0-20000-0-03096,03096,----,Bridge Of Cally,United Kingdom,56-38-38N,003-23-03W,175,1999-04-16,2001-11-29
+0-20000-0-03097,03097,----,Enochdhu,United Kingdom,56-44-47N,003-31-55W,248,2002-01-10,2003-11-11
+0-20000-0-03100,03100,EGPU,Tiree,United Kingdom,56-30-00N,006-52-58W,12,1930-12-01,----
+0-20000-0-03102,03102,----,Orsay,United Kingdom,55-40-26N,006-30-39W,23,1992-01-01,1998-02-28
+0-20000-0-03105,03105,----,Islay: Port Ellen,United Kingdom,55-40-53N,006-14-58W,17,1976-01-01,----
+0-20000-0-03106,03106,----,Rhuvaal,United Kingdom,55-56-08N,006-07-28W,20,1957-10-01,1981-12-31
+0-20000-0-03107,03107,----,Bute: Dhu Loch Water Works,United Kingdom,55-48-58N,005-04-49W,83,1986-08-01,2003-02-28
+0-20000-0-03111,03111,EGQJ,Machrihanish,United Kingdom,55-26-26N,005-41-48W,13,1965-01-01,----
+0-0-0-MISSING,03114,----,Oban,United Kingdom,56-25N,005-28W,4,----,----
+0-0-0-MISSING,03116,----,"Dalmally, Stronmilchan",United Kingdom,56-24-37N,004-59-57W,55,1998-02-23,2009-03-31
+0-20000-0-03120,03120,----,Lochranza,United Kingdom,55-42-21N,005-18-14W,46,1988-01-01,2008-11-01
+0-20000-0-03121,03121,----,Kildonan,United Kingdom,55-26-31N,005-06-30W,18,1981-03-01,2005-09-01
+0-20000-0-03132,03130,----,West Freugh,United Kingdom,54-51N,004-57W,17,----,----
+0-20000-0-03131,03131,----,Mull Of Galloway,United Kingdom,54-38-05N,004-51-25W,78,1957-11-01,1963-12-31
+0-20000-0-03132,03132,EGOY,West Freugh,United Kingdom,54-51-33N,004-56-07W,11,1961-01-01,----
+0-20000-0-03133,03133,----,Sloy,United Kingdom,56-15-03N,004-42-41W,12,1961-01-01,2006-06-19
+0-20000-0-03134,03134,----,Glasgow Bishopton,United Kingdom,55-54-24N,004-31-56W,59,1998-01-01,----
+0-20000-0-03135,03135,EGPK,Prestwick Airport,United Kingdom,55-30-05N,004-35-01W,16,1957-01-01,1993-12-31
+0-20000-0-03136,03136,----,Prestwick Rnas,United Kingdom,55-30-55N,004-35-04W,20,1993-01-01,----
+0-0-0-MISSING,03137,----,Whithorn,United Kingdom,54-42N,004-25W,40,----,----
+0-20000-0-03138,03138,----,Greenock Mrcc,United Kingdom,55-57-44N,004-47-33W,5,1987-05-01,2007-07-01
+0-20000-0-03139,03139,----,Saughall,United Kingdom,55-36-03N,004-13-29W,221,1995-09-01,2013-12-04
+0-20000-0-03140,03140,EGPF,Glasgow Airport,United Kingdom,55-52-09N,004-25-45W,5,1966-01-01,1999-05-31
+0-20000-0-03141,03141,----,"Cumbernauld, Whitelees",United Kingdom,55-57-58N,003-56-30W,110,1998-11-01,1999-08-31
+0-20000-0-03142,03142,----,Radar Holehead,United Kingdom,56-01-12N,004-13-10W,550,----,----
+0-20000-0-03143,03143,----,"Dumfries, Drungans",United Kingdom,55-03-13N,003-38-37W,16,1972-01-01,2004-03-09
+0-20000-0-03144,03144,----,Strathallan,United Kingdom,56-19-35N,003-43-42W,35,1989-01-01,----
+0-20000-0-03145,03145,----,Glasgow Weather Centre,United Kingdom,55-51-35N,004-15-45W,40,1974-10-01,1985-03-31
+0-20000-0-03147,03147,----,Glenlee,United Kingdom,55-05-56N,004-11-00W,55,1961-01-02,2013-11-01
+0-20000-0-03148,03148,----,Glen Ogle,United Kingdom,56-25-23N,004-19-12W,564,1996-08-01,2023-02-15
+0-20000-0-03149,03149,----,Earls Hill,United Kingdom,56-04-10N,004-02-53W,335,1961-11-01,1980-12-31
+0-20000-0-03150,03150,----,Crawfordjohn,United Kingdom,55-29-45N,003-46-28W,274,1961-01-01,1973-06-30
+0-20000-0-03151,03151,----,Lowther Hill,United Kingdom,55-22-39N,003-45-06W,754,1968-01-01,1990-03-31
+0-20000-0-03152,03152,----,Salsburgh,United Kingdom,55-51-41N,003-52-26W,277,1964-12-01,2008-06-19
+0-20000-0-03153,03153,----,Dundrennan,United Kingdom,54-48-11N,004-00-29W,113,1983-01-01,----
+0-20000-0-03143,03154,----,Dumfries / Drungans,United Kingdom,55-03N,003-39W,16,----,----
+0-20000-0-03155,03155,----,Drumalbin,United Kingdom,55-37-37N,003-44-09W,245,1984-01-01,----
+0-20000-0-03156,03156,----,Pitreavie No 2,United Kingdom,56-02-52N,003-25-03W,40,1961-01-01,1985-07-31
+0-20000-0-03158,03158,----,Charterhall,United Kingdom,55-42-30N,002-23-04W,112,1987-01-01,----
+0-20000-0-03159,03159,----,Radar Munduff Hill,United Kingdom,56-12-36N,003-18-36W,440,----,----
+0-20000-0-03160,03160,EGPH,Edinburgh Airport,United Kingdom,55-57-02N,003-20-48W,35,1957-01-01,1999-12-31
+0-20008-0-EDM,03162,----,Eskdalemuir,United Kingdom,55-18-42N,003-12-24W,236,1908-01-01,----
+0-0-0-MISSING,03165,EGOM,Spadeadam,United Kingdom,55-03N,002-33W,325,----,----
+0-20000-0-03166,03166,----,Edinburgh Gogarbank,United Kingdom,55-55-41N,003-20-39W,57,1998-01-01,----
+0-20000-0-03168,03168,----,Galashiels,United Kingdom,55-36-21N,002-54-11W,137,1961-01-01,1988-02-29
+0-826-0-03171,03170,----,Shanwell,United Kingdom,56-26-18N,002-51-34W,4,1948-01-01,1992-12-31
+0-20000-0-03171,03171,EGQL,Leuchars,United Kingdom,56-22-36N,002-51-46W,12,1921-01-01,----
+0-20000-0-03173,03173,----,"Edinburgh, Blackford Hill",United Kingdom,55-55-22N,003-11-22W,134,----,2015-12-02
+0-20000-0-03174,03174,----,Fife Ness,United Kingdom,56-16-45N,002-35-04W,12,1984-01-01,2007-07-01
+0-20000-0-03176,03176,----,Carterhouse,United Kingdom,55-21-29N,002-31-02W,308,1989-10-02,2018-07-02
+0-20000-0-03177,03177,----,Bell Rock,United Kingdom,56-25-58N,002-23-17W,39,1969-01-01,1987-03-31
+0-20000-0-03185,03185,----,St Abbs Head,United Kingdom,55-55-00N,002-08-15W,75,1937-01-01,1964-12-31
+0-20000-0-03188,03188,----,Berwick Upon Tweed,United Kingdom,55-45-14N,002-01-54W,42,1994-11-01,1997-10-31
+0-20000-0-03190,03190,----,Seahouses,United Kingdom,55-34-58N,001-39-09W,11,1964-01-01,1979-06-30
+0-20000-0-03204,03204,EGNS,Isle Of Man / Ronaldsway Airport,United Kingdom,54-05-07N,004-37-54W,16,1957-01-01,----
+0-20000-0-03207,03207,----,Snaefell-Isle,United Kingdom,54-15-50N,004-27-35W,614,1966-01-01,1987-05-31
+0-20000-0-03208,03208,----,Point Of Ayre Lighthouse ,United Kingdom,54-24-52N,004-22-04W,9,1957-01-01,2015-06-30
+0-0-0-MISSING,03209,----,Drumburgh,United Kingdom,54-56N,003-09W,7,----,----
+0-20000-0-03210,03210,----,Saint Bees Head,United Kingdom,54-31-04N,003-36-52W,124,1983-05-01,----
+0-20000-0-03211,03211,----,St Bees Head,United Kingdom,54-30-46N,003-38-09W,94,1980-01-01,1987-02-28
+0-20000-0-03212,03212,----,Keswick,United Kingdom,54-36-50N,003-09-24W,81,1983-12-01,----
+0-826-0-03213,03213,----,Eskmeals,United Kingdom,54-19-30N,003-24-30W,8,1961-01-01,2001-03-30
+0-20000-0-03214,03214,EGNL,Walney Island,United Kingdom,54-07-30N,003-15-29W,15,1983-12-01,----
+0-0-0-MISSING,03215,----,Aspatria,United Kingdom,54-46N,003-19W,61,----,----
+0-20000-0-03220,03220,----,Carlisle,United Kingdom,54-56-03N,002-57-48W,28,1961-01-01,----
+0-0-0-MISSING,03222,EGNC,Carlisle,United Kingdom,54-56N,002-48W,56,----,----
+0-20000-0-03224,03224,----,Spadeadam,United Kingdom,55-03-01N,002-33-15W,285,1992-11-06,----
+0-20000-0-03225,03225,----,Shap,United Kingdom,54-30-07N,002-41-06W,252,1988-02-01,----
+0-20000-0-03226,03226,----,Warcop Range,United Kingdom,54-34-20N,002-24-47W,227,1983-12-01,----
+0-20008-0-GDF,03227,----,Great Dun Fell,United Kingdom,54-41-03N,002-27-05W,847,1994-01-01,----
+0-20000-0-03228,03228,----,Whins Pond,United Kingdom,54-40-09N,002-42-14W,125,1989-07-01,1994-03-31
+0-20008-0-GDF,03229,----,Great Dun Fell,United Kingdom,54-41N,002-27W,847,----,----
+0-20000-0-03230,03230,----,Redesdale,United Kingdom,55-17-05N,002-16-45W,211,1996-08-16,----
+0-0-0-MISSING,03235,----,Boltshope Park,United Kingdom,54-49N,002-05W,434,----,----
+0-20000-0-03238,03238,----,Albemarle,United Kingdom,55-01-10N,001-52-54W,142,2003-02-27,----
+0-20000-0-03240,03240,EGQM,Boulmer,United Kingdom,55-25-14N,001-36-05W,23,1975-10-01,----
+0-0-0-MISSING,03241,----,Long Framlington,United Kingdom,55-18N,001-48W,158,----,----
+0-0-0-MISSING,03242,----,Burnhope,United Kingdom,54-49N,001-43W,240,----,----
+0-20000-0-03244,03244,----,Acklington,United Kingdom,55-17-59N,001-38-44W,42,1974-01-01,1975-09-30
+0-0-0-MISSING,03246,----,Newcastle Weather Centre,United Kingdom,54-59N,001-36W,30,----,----
+0-0-0-MISSING,03249,----,Sunderland Polytech,United Kingdom,54-54N,001-23W,56,----,----
+0-20000-0-03253,03253,----,Radar High Moorsley,United Kingdom,54-47-58N,001-28-10W,158,----,----
+0-20000-0-03257,03257,EGXE,Leeming,United Kingdom,54-17-48N,001-31-59W,40,1961-01-01,----
+0-20000-0-03261,03261,EGXD,Dishforth,United Kingdom,54-08-04N,001-24-51W,36,1952-01-01,2016-06-07
+0-0-0-MISSING,03262,----,Tynemouth,United Kingdom,55-01N,001-25W,30,----,----
+0-20000-0-03263,03263,----,Middleton St George,United Kingdom,54-30-45N,001-25-09W,35,1961-01-01,1964-04-30
+0-20000-0-03265,03265,----,Topcliffe,United Kingdom,54-12-16N,001-23-23W,28,1961-01-01,----
+0-20000-0-03266,03266,EGXU,Linton-On-Ouse,United Kingdom,54-02-43N,001-15-03W,16,1974-11-01,2021-09-02
+0-20000-0-03275,03275,----,Loftus Samos,United Kingdom,54-33-46N,000-51-48W,158,1996-06-21,----
+0-20000-0-03281,03281,----,Fylingdales,United Kingdom,54-21-30N,000-40-18W,262,1961-04-01,----
+0-0-0-MISSING,03282,----,Whitby,United Kingdom,54-29N,000-36W,60,----,----
+0-20000-0-03292,03292,----,Bridlington Mrsc,United Kingdom,54-05-38N,000-10-32W,15,1987-06-15,----
+0-0-0-MISSING,03293,----,Cowden,United Kingdom,53-51N,000-06W,15,----,----
+0-20000-0-03301,03301,----,Mona,United Kingdom,53-15-35N,004-22-33W,62,2009-10-14,----
+0-20000-0-03302,03302,EGOV,Valley,United Kingdom,53-15-08N,004-32-11W,10,1941-01-01,----
+0-0-0-MISSING,03303,----,Amlwch,United Kingdom,53-23N,004-22W,114,----,----
+0-20000-0-03305,03305,----,Capel Curig,United Kingdom,53-05-39N,003-56-29W,216,1993-08-01,----
+0-0-0-MISSING,03308,----,Snowdon Summit,United Kingdom,53-04N,004-05W,1070,----,----
+0-20000-0-03313,03313,----,Rhyl,United Kingdom,53-15-33N,003-30-32W,77,1986-08-19,----
+0-0-0-MISSING,03314,----,Moel-Y-Crio,United Kingdom,53-13N,003-13W,263,----,----
+0-20000-0-03316,03316,----,Crosby,United Kingdom,53-29-49N,003-03-28W,9,1983-06-01,----
+0-826-0-03317,03317,----,Woodvale,United Kingdom,53-34-03N,003-03-03W,11,1999-12-01,2011-01-18
+0-20000-0-03318,03318,EGNH,Blackpool Airport,United Kingdom,53-46-27N,003-02-21W,10,1942-01-01,----
+0-20000-0-03321,03321,EGNR,Hawarden,United Kingdom,53-10-28N,002-59-14W,14,1985-09-04,----
+0-826-0-03322,03322,----,Aughton,United Kingdom,53-32-59N,002-54-57W,54,1948-01-01,1996-03-31
+0-20000-0-03323,03323,----,Speke,United Kingdom,53-19-53N,002-50-43W,22,1961-01-01,1977-08-31
+0-0-0-MISSING,03329,----,Winter Hill,United Kingdom,53-37N,002-31W,440,----,----
+0-20000-0-03330,03330,----,Leek Thorncliffe,United Kingdom,53-07-40N,001-58-53W,298,2002-10-28,----
+0-20000-0-03331,03331,----,Radar Hameldon Hill,United Kingdom,53-45-00N,002-17-24W,400,----,----
+0-0-0-MISSING,03334,EGCC,Manchester Airport,United Kingdom,53-21N,002-17W,69,----,----
+0-20000-0-03335,03335,----,Manchester Weather Centre,United Kingdom,53-28-57N,002-14-33W,69,1980-01-01,1980-12-31
+0-0-0-MISSING,03338,----,Cellarhead,United Kingdom,53-02N,002-05W,228,----,----
+0-0-0-MISSING,03339,----,Skipton,United Kingdom,53-58N,002-02W,153,----,----
+0-20000-0-03342,03342,----,Holme Moss,United Kingdom,53-31-56N,001-51-18W,520,1977-01-01,1995-05-31
+0-20000-0-03343,03343,----,"Huddersfield, Oakes",United Kingdom,53-39-19N,001-49-44W,232,1987-05-01,1987-05-31
+0-20000-0-03344,03344,----,Bingley,United Kingdom,53-48-39N,001-52-00W,262,1972-02-01,----
+0-20000-0-03346,03345,----,Emley Moor,United Kingdom,53-37N,001-40W,259,----,----
+0-20000-0-03346,03346,----,Emley Moor No 2,United Kingdom,53-36-42N,001-40-00W,267,2011-08-02,----
+0-0-0-MISSING,03347,----,Leeds Weather Centre,United Kingdom,53-48N,001-33W,47,----,----
+0-0-0-MISSING,03348,----,Woodford,United Kingdom,53-20N,002-09W,89,----,----
+0-20000-0-03350,03350,----,High Bradfield,United Kingdom,53-25-56N,001-34-56W,395,1975-01-01,2018-09-20
+0-20000-0-03351,03351,----,Rostherne No 2,United Kingdom,53-21-35N,002-22-54W,35,2012-10-31,----
+0-20000-0-03354,03354,----,Nottingham Weather Centre,United Kingdom,53-00-20N,001-15-03W,117,1957-01-01,----
+0-0-0-MISSING,03355,EGXG,Church Fenton,United Kingdom,53-50N,001-12W,9,----,----
+0-20000-0-03360,03360,----,Finningley,United Kingdom,53-28-56N,001-00-24W,10,1949-01-01,1995-09-30
+0-20000-0-03373,03373,----,Scampton,United Kingdom,53-18-24N,000-32-53W,62,1963-01-01,2022-11-01
+0-20000-0-03375,03375,----,Radar Ingham,United Kingdom,53-20-24N,000-33-36W,67,----,----
+0-20000-0-03377,03377,EGXW,Waddington,United Kingdom,53-10-31N,000-31-23W,68,1946-01-01,----
+0-20000-0-03379,03379,EGYD,Cranwell,United Kingdom,53-01-51N,000-30-12W,66,1917-01-01,----
+0-20000-0-03382,03382,----,Leconfield,United Kingdom,53-52-28N,000-26-30W,9,1959-07-01,----
+0-20000-0-03382,03384,EGXV,Leconfield,United Kingdom,53-52N,000-26W,6,----,----
+0-20000-0-03385,03385,----,Donna Nook No.2,United Kingdom,53-28-28N,000-09-10E,8,1992-12-04,----
+0-0-0-MISSING,03387,----,Easington,United Kingdom,53-40N,000-07E,10,----,----
+0-20000-0-03388,03388,----,Binbrook,United Kingdom,53-26-42N,000-12-01W,108,1962-08-01,1992-07-31
+0-20000-0-03391,03391,EGXC,Coningsby Royal Air Force Base,United Kingdom,53-05-38N,000-10-22W,7,1969-08-01,----
+0-20000-0-03392,03392,EGYW,Wainfleet,United Kingdom,53-05-17N,000-16-14E,3,1995-11-23,----
+0-20000-0-03394,03394,----,Gibraltar Point,United Kingdom,53-05-42N,000-19-22E,3,1989-04-01,1989-06-30
+0-20000-0-03395,03395,----,Manby,United Kingdom,53-21-39N,000-05-55E,13,1957-01-01,1974-05-31
+0-20000-0-03396,03396,----,Kilnsea,United Kingdom,53-37-19N,000-08-33E,12,1964-01-01,1976-05-31
+0-20000-0-03400,03400,----,Bardsey Island,United Kingdom,52-44-58N,004-47-51W,15,1961-01-01,1987-03-31
+0-0-0-MISSING,03402,----,Mynydd Rhiw,United Kingdom,52-49N,004-38W,253,----,----
+0-0-0-MISSING,03403,----,Nantmor,United Kingdom,53-00N,004-05W,53,----,----
+0-20000-0-03405,03405,----,Aberdaron,United Kingdom,52-47-20N,004-44-29W,95,1993-07-02,----
+0-20000-0-03406,03406,----,Trawsfynydd,United Kingdom,52-55-55N,003-56-30W,193,1961-01-01,1995-09-30
+0-20000-0-03407,03407,----,Llanbedr,United Kingdom,52-48-08N,004-07-22W,9,1998-01-28,2004-11-01
+0-0-0-MISSING,03408,----,Cynwyd,United Kingdom,52-57N,003-25W,228,----,----
+0-20000-0-03409,03409,----,Bala,United Kingdom,52-54-25N,003-34-59W,163,1961-01-02,----
+0-20000-0-03410,03410,----,Lake Vyrnwy,United Kingdom,52-45-25N,003-27-55W,360,1988-11-01,----
+0-0-0-MISSING,03411,----,Aberhosan,United Kingdom,52-34N,003-43W,244,----,----
+0-20000-0-03414,03414,EGOS,Shawbury,United Kingdom,52-47-40N,002-39-52W,76,1971-01-01,----
+0-0-0-MISSING,03453,EGXJ,Cottesmore,United Kingdom,52-44N,000-39W,138,----,----
+0-20000-0-03462,03462,EGXT,Wittering,United Kingdom,52-36-41N,000-27-39W,83,1957-01-01,----
+0-20000-0-03469,03469,EGYH,Holbeach,United Kingdom,52-52-23N,000-08-18E,3,1986-04-01,----
+0-20000-0-03478,03478,----,Sculthorpe,United Kingdom,52-51-01N,000-45-23E,65,1978-07-01,1979-05-31
+0-20000-0-03482,03482,EGYM,Marham,United Kingdom,52-39-05N,000-33-57E,24,1957-01-01,----
+0-20000-0-03485,03485,----,West Raynham,United Kingdom,52-47-09N,000-44-21E,73,1968-01-01,1969-07-31
+0-20008-0-WAO,03488,----,Weybourne,United Kingdom,52-56-57N,001-07-21E,21,1986-04-01,----
+0-0-0-MISSING,03492,EGSH,Norwich Airport,United Kingdom,52-41N,001-17E,36,----,----
+0-0-0-MISSING,03495,EGYC,Coltishall,United Kingdom,52-26N,001-21E,20,----,----
+0-20008-0-HBY,03496,----,Hemsby,United Kingdom,52-41-09N,001-41-13E,13,1948-01-01,2001-04-02
+0-20000-0-03497,03497,----,Gorleston,United Kingdom,52-34-17N,001-44-23E,4,1916-01-01,2016-06-08
+0-0-0-MISSING,03501,----,Capel Dewi,United Kingdom,52-25N,004-00W,92,----,----
+0-20000-0-03502,03502,EGUC,Aberporth,United Kingdom,52-08-21N,004-34-15W,133,1957-01-01,----
+0-20000-0-03503,03503,----,Trawscoed,United Kingdom,52-20-39N,003-56-53W,63,1961-01-01,----
+0-20000-0-03504,03504,----,Cenarth,United Kingdom,52-22-57N,003-31-57W,308,1976-07-01,1980-10-31
+0-20000-0-03505,03505,----,St Harmon,United Kingdom,52-20-30N,003-28-57W,279,1961-01-01,1991-10-31
+0-20000-0-03507,03507,----,Sennybridge,United Kingdom,52-03-47N,003-36-52W,307,1995-06-30,----
+0-0-0-MISSING,03511,----,Newcastle On Clun,United Kingdom,52-26N,003-07W,215,----,----
+0-20000-0-03520,03520,----,Shobdon,United Kingdom,52-14-35N,002-53-08W,99,1992-06-23,----
+0-0-0-MISSING,03521,----,Madley,United Kingdom,52-02N,002-51W,77,----,----
+0-20000-0-03522,03522,----,Hereford/Credenhill,United Kingdom,52-04-47N,002-48-09W,76,1999-08-01,----
+0-20000-0-03523,03523,----,Radar Clee Hill,United Kingdom,52-23-58N,002-36-03W,504,----,----
+0-20000-0-03524,03524,----,Clee Hill,United Kingdom,52-23-50N,002-35-21W,504,1973-01-01,1976-08-31
+0-0-0-MISSING,03525,----,Malvern,United Kingdom,52-05N,002-18W,53,----,----
+0-0-0-MISSING,03526,----,Barbourne,United Kingdom,52-12N,002-13W,25,----,----
+0-0-0-MISSING,03527,----,Great Malvern,United Kingdom,52-07N,002-18W,46,----,----
+0-20000-0-03529,03529,----,Pershore,United Kingdom,52-08-53N,002-02-27W,35,1957-11-01,----
+0-20000-0-03531,03531,----,Edgbaston,United Kingdom,52-28-30N,001-56-01W,160,----,1979-09-30
+0-0-0-MISSING,03534,EGBB,Birmingham / Airport,United Kingdom,52-27N,001-44W,99,----,----
+0-20000-0-03535,03535,----,Coleshill,United Kingdom,52-28-47N,001-41-26W,96,1997-10-01,----
+0-20000-0-03544,03544,----,Church Lawford,United Kingdom,52-21-32N,001-19-53W,107,1983-12-01,----
+0-20000-0-03559,03559,----,Cardington,United Kingdom,52-06-14N,000-25-17W,29,1980-06-01,----
+0-20000-0-03559,03559,----,Cardington,United Kingdom,52-06-14N,000-25-17W,29,1963-01-01,----
+0-20000-0-03560,03560,----,Bedford,United Kingdom,52-13-36N,000-27-55W,85,1970-01-01,----
+0-0-0-MISSING,03562,EGWZ,Alconbury Royal Air Force Base,United Kingdom,52-22N,000-13W,49,----,----
+0-0-0-MISSING,03566,EGUY,Wyton Royal Air Force Base,United Kingdom,52-21N,000-07W,41,----,----
+0-0-0-MISSING,03577,EGUN,Mildenhall Royal Air Force Base,United Kingdom,52-22N,000-29E,10,----,----
+0-20000-0-03578,03578,----,Mildenhall,United Kingdom,52-22-18N,000-28-20E,5,1949-01-01,1968-12-31
+0-0-0-MISSING,03583,EGUL,Lakenheath Royal Air Force Base,United Kingdom,52-25N,000-34E,10,----,----
+0-0-0-MISSING,03586,EGXH,Honington Royal Air Force Base,United Kingdom,52-20N,000-46E,54,----,----
+0-20000-0-03590,03590,EGUW,Wattisham,United Kingdom,52-07-26N,000-57-27E,86,1961-11-01,----
+0-20000-0-03590,03591,----,Wattisham,United Kingdom,52-07N,000-58E,87,----,----
+0-20000-0-03601,03601,----,Radar Crug-Y-Gorllwyn,United Kingdom,51-58-46N,004-26-24W,327,----,----
+0-20000-0-03603,03603,----,Brawdy,United Kingdom,51-52-47N,005-07-21W,111,1974-10-01,1992-09-30
+0-20000-0-03604,03604,----,Milford Haven,United Kingdom,51-42-32N,005-03-11W,44,1964-06-01,----
+0-20000-0-03605,03605,EGOP,Pembrey Sands,United Kingdom,51-42-51N,004-22-02W,3,1992-12-11,----
+0-0-0-MISSING,03607,----,Pendine,United Kingdom,51-45N,004-31W,5,----,----
+0-0-0-MISSING,03608,----,Pendine,United Kingdom,51-45N,004-31W,5,----,----
+0-20000-0-03609,03609,----,Mumbles,United Kingdom,51-33-56N,003-58-54W,43,1958-12-02,----
+0-20000-0-03611,03611,----,Brynamman,United Kingdom,51-48-43N,003-51-35W,183,1980-01-01,1985-09-30
+0-20000-0-03613,03613,----,Cwmbargoed,United Kingdom,51-44-47N,003-19-52W,372,1982-01-01,1992-10-31
+0-0-0-MISSING,03614,----,Cilfynydd,United Kingdom,51-38N,003-18W,194,----,----
+0-20000-0-03628,03628,----,Filton,United Kingdom,51-31-18N,002-34-37W,56,1957-01-01,2018-10-16
+0-20000-0-03629,03629,----,Avonmouth,United Kingdom,51-30-21N,002-42-59W,9,2016-02-10,2021-01-15
+0-20000-0-03633,03633,----,Innsworth,United Kingdom,51-53-26N,002-11-41W,21,1977-11-01,1981-12-31
+0-0-0-MISSING,03644,EGVA,Fairford Royal Air Force Base,United Kingdom,51-41N,001-47W,87,----,----
+0-20000-0-03647,03647,----,Little Rissington,United Kingdom,51-51-38N,001-41-35W,210,1974-01-01,----
+0-20000-0-03649,03649,EGVN,Brize Norton,United Kingdom,51-45-29N,001-34-41W,88,1968-01-01,----
+0-20000-0-03653,03653,----,Abingdon,United Kingdom,51-41-17N,001-18-25W,69,1957-01-01,1974-09-30
+0-20000-0-03658,03658,EGUB,Benson,United Kingdom,51-37-13N,001-05-54W,62,1939-02-01,----
+0-20000-0-03660,03660,----,High Wycombe Hqstc,United Kingdom,51-40-54N,000-48-24W,204,1995-11-02,2022-10-12
+0-20000-0-03668,03668,----,Dunstable,United Kingdom,51-53-06N,000-32-17W,157,1957-01-01,1960-06-30
+0-20000-0-03669,03669,----,Bovingdon,United Kingdom,51-43-24N,000-32-30W,157,1957-01-01,1968-12-31
+0-0-0-MISSING,03670,----,Northwood,United Kingdom,51-37N,000-24W,113,----,----
+0-20000-0-03672,03672,EGWU,Northolt,United Kingdom,51-32-54N,000-25-00W,38,1974-01-02,----
+0-20000-0-03675,03674,----,Chenies,United Kingdom,51-41N,000-32W,139,----,----
+0-20000-0-03675,03675,----,Radar Chenies,United Kingdom,51-41-22N,000-31-48W,139,----,----
+0-0-0-MISSING,03680,----,Rothamsted,United Kingdom,51-48-21N,000-21-29W,128,----,----
+0-0-0-MISSING,03683,EGSS,Stansted Airport,United Kingdom,51-53N,000-14E,106,----,----
+0-20000-0-03684,03684,----,Andrewsfield,United Kingdom,51-53-45N,000-27-02E,87,1997-09-19,----
+0-20000-0-03693,03693,----,Shoeburyness,United Kingdom,51-33-16N,000-49-36E,2,1981-11-01,----
+0-0-0-MISSING,03695,----,Thames Tower,United Kingdom,51-40N,001-06E,8,----,----
+0-0-0-MISSING,03696,----,Walton-On-Naze,United Kingdom,51-51N,001-17E,3,----,----
+0-20000-0-03697,03697,----,Felixstowe,United Kingdom,51-56-46N,001-19-36E,3,1957-01-01,1961-10-31
+0-0-0-MISSING,03700,----,Saint Gowan L. V.,United Kingdom,51-30N,005-00W,5,----,----
+0-0-0-MISSING,03701,----,Gawlish,United Kingdom,51-01N,004-29W,122,----,----
+0-20000-0-03707,03707,EGDC,Chivenor,United Kingdom,51-05-21N,004-08-54W,8,1957-04-27,----
+0-20000-0-03710,03710,----,Liscombe,United Kingdom,51-05-12N,003-36-32W,348,1993-01-21,----
+0-0-0-MISSING,03712,----,Tivington,United Kingdom,51-12N,003-32W,80,----,----
+0-0-0-MISSING,03715,EGFF,Cardiff-Wales Airport,United Kingdom,51-24N,003-21W,67,----,----
+0-20000-0-03716,03716,----,St. Athan,United Kingdom,51-24-19N,003-26-26W,50,1997-11-20,----
+0-826-0-51,03717,----,Cardiff Weather Centre,United Kingdom,51-29N,003-11W,9,----,----
+0-0-0-MISSING,03726,----,Bristol Weather Centre,United Kingdom,51-28N,002-36W,11,----,----
+0-20000-0-03740,03740,EGDL,Lyneham,United Kingdom,51-30-11N,001-59-31W,145,1968-01-01,----
+0-20000-0-03743,03743,----,Larkhill,United Kingdom,51-12-06N,001-48-20W,132,1957-01-01,----
+0-20000-0-03746,03746,EGDM,Boscombe Down,United Kingdom,51-09-42N,001-45-16W,124,1957-01-01,----
+0-20000-0-03749,03749,EGVP,Middle Wallop,United Kingdom,51-08-58N,001-34-12W,91,1973-04-01,----
+0-20000-0-03761,03759,----,Test Samos 03761,United Kingdom,51-15N,000-57W,123,----,----
+0-20000-0-03761,03761,EGVO,Odiham,United Kingdom,51-14-20N,000-56-41W,123,1985-03-14,----
+0-20008-0-BRK,03763,EGRR,Bracknell / Beaufort Park,United Kingdom,51-23N,000-47W,74,----,----
+0-20000-0-03768,03766,EGUF,Farnborough Military ,United Kingdom,51-17N,000-46W,72,----,----
+0-20000-0-03768,03768,EGLF,Farnborough,United Kingdom,51-16-48N,000-46-20W,65,1957-01-01,2022-07-12
+0-0-0-MISSING,03769,----,Charlwood,United Kingdom,51-08-38N,000-13-45W,67,2002-06-25,2014-11-01
+0-20000-0-03769,03769,----,Charlwood,United Kingdom,51-08-38N,000-13-45W,67,2014-11-01,----
+0-20000-0-03770,03770,----,"London, St James Park",United Kingdom,51-30-16N,000-07-51W,5,1959-01-01,----
+0-20000-0-03772,03772,EGLL,London / Heathrow Airport,United Kingdom,51-28-45N,000-27-02W,24,1949-01-01,----
+0-0-0-MISSING,03776,EGKK,London / Gatwick Airport,United Kingdom,51-09N,000-11W,62,----,----
+0-20000-0-03770,03779,EGRB,London Weather Centre,United Kingdom,51-31N,000-07W,5,----,----
+0-0-0-MISSING,03780,----,Redhill,United Kingdom,51-13N,000-08W,63,----,----
+0-20000-0-03781,03781,----,Kenley,United Kingdom,51-18-14N,000-05-29W,170,1989-10-01,----
+0-20000-0-03784,03784,----,Gravesend-Broadness,United Kingdom,51-27-51N,000-18-41E,3,1995-01-01,2018-08-31
+0-0-0-MISSING,03785,----,Charing,United Kingdom,51-12N,000-47E,91,----,----
+0-0-0-MISSING,03789,----,Jubilee Corner,United Kingdom,51-11N,000-38E,47,----,----
+0-0-0-MISSING,03791,----,Sheerness,United Kingdom,51-27N,000-45E,25,----,----
+0-20000-0-03796,03796,----,Langdon Bay,United Kingdom,51-08-00N,001-20-35E,117,1985-07-01,----
+0-20000-0-03797,03797,EGUM,Manston,United Kingdom,51-20-47N,001-20-08E,54,1961-01-01,----
+0-20000-0-03803,03803,EGHE,"Scilly, Saint Mary'S",United Kingdom,49-54-51N,006-17-44W,36,1985-11-14,----
+0-20008-0-CBR,03807,----,Camborne,United Kingdom,50-13N,005-19W,88,----,----
+0-20008-0-CBR,03808,----,Camborne,United Kingdom,50-13-06N,005-19-39W,87,1948-01-01,----
+0-20000-0-03809,03809,EGDR,Culdrose,United Kingdom,50-05-03N,005-15-25W,81,1977-01-01,----
+0-0-0-MISSING,03810,----,Pendennis Point,United Kingdom,50-09N,005-04W,35,----,----
+0-20000-0-03813,03813,----,Radar Predannack,United Kingdom,50-00-00N,005-13-10W,85,----,----
+0-0-0-MISSING,03815,----,Lizard Lighthouse,United Kingdom,49-58N,005-12W,60,----,----
+0-0-0-MISSING,03817,EGDG,Saint Mawgan,United Kingdom,50-26N,005-00W,119,----,----
+0-0-0-MISSING,03820,----,Davidstow Moor,United Kingdom,50-38N,004-36W,291,----,----
+0-20000-0-03823,03823,----,Cardinham,United Kingdom,50-30-07N,004-40-00W,200,1974-10-01,----
+0-0-0-MISSING,03824,----,Bastreet,United Kingdom,50-34N,004-29W,233,----,----
+0-20000-0-03827,03827,EGDB,Plymouth,United Kingdom,50-21-17N,004-07-15W,50,1930-12-01,----
+0-0-0-MISSING,03830,----,Burrington,United Kingdom,50-56N,003-59W,199,----,----
+0-0-0-MISSING,03831,----,North Hessary Tor,United Kingdom,50-33N,004-00W,510,----,----
+0-0-0-MISSING,03837,----,Brixham,United Kingdom,50-24N,003-29W,3,----,----
+0-20000-0-03839,03839,EGTE,Exeter Airport,United Kingdom,50-44-13N,003-24-20W,31,1973-01-01,1973-01-01
+0-20000-0-03840,03840,----,Dunkeswell Aerodrome,United Kingdom,50-51-37N,003-14-25W,252,1964-01-01,----
+0-20000-0-03840,03841,----,Temp For 03840,United Kingdom,50-52N,003-15W,255,----,----
+0-20000-0-03842,03842,----,Radar Cobbacombe Cross,United Kingdom,50-57-36N,003-27-06W,284,----,----
+0-20000-0-03844,03844,----,Exeter Airport No2,United Kingdom,50-44-12N,003-24-15W,31,2009-11-03,----
+0-20000-0-03853,03853,EGDY,Yeovilton,United Kingdom,51-00-23N,002-38-34W,23,1964-01-01,----
+0-20000-0-03854,03854,----,Radar Wardon Hill,United Kingdom,50-49-12N,002-23-35W,245,----,----
+0-20000-0-03857,03857,----,Isle Of Portland,United Kingdom,50-31-18N,002-27-20W,52,1969-04-01,----
+0-0-0-MISSING,03858,EGDP,Portland / Rnas,United Kingdom,50-34N,002-27W,3,----,----
+0-20000-0-03859,03859,----,Radar Dean Hill,United Kingdom,51-01-48N,001-38-58W,150,----,----
+0-20000-0-03862,03862,EGHH,Bournemouth Airport,United Kingdom,50-46-45N,001-50-09W,12,1957-01-01,----
+0-0-0-MISSING,03865,EGHI,Southampton Airport,United Kingdom,50-47N,001-21W,13,----,----
+0-20000-0-03866,03866,----,Saint Catherine'S Point,United Kingdom,50-34-32N,001-17-48W,20,1982-09-01,----
+0-0-0-MISSING,03867,----,Lee-On-Solent,United Kingdom,50-49N,001-13W,10,----,----
+0-20000-0-03872,03872,----,Thorney Island,United Kingdom,50-48-52N,000-55-21W,4,1957-01-01,----
+0-0-0-MISSING,03874,----,Solent M. R. S. C.,United Kingdom,50-48N,001-13W,9,----,----
+0-20000-0-03876,03876,EGKA,Shoreham Airport,United Kingdom,50-50-09N,000-17-36W,2,1988-04-02,----
+0-0-0-MISSING,03880,----,Newhaven,United Kingdom,50-47N,000-03E,5,----,----
+0-0-0-MISSING,03881,----,Brede,United Kingdom,50-56N,000-36E,82,----,----
+0-20000-0-03882,03882,----,Herstmonceux,United Kingdom,50-53-57N,000-19-00E,52,1992-10-01,----
+0-20000-0-03894,03894,EGJB,Guernsey Airport,United Kingdom,49-25-59N,002-35-53W,102,1961-01-01,----
+0-20000-0-03895,03895,EGJJ,Jersey Airport,United Kingdom,49-12-34N,002-11-39W,84,1961-01-01,----
+0-0-0-MISSING,03896,----,Saint Helier,United Kingdom,49-12N,002-06W,54,----,----
+0-0-0-MISSING,03900,----,Knockarevan,United Kingdom,54-25N,008-05W,50,----,----
+0-20000-0-03901,03901,----,Thomastown,United Kingdom,54-19-45N,007-35-39W,72,2012-06-18,----
+0-0-0-MISSING,03902,----,Corgary,United Kingdom,54-26N,008-03W,45,----,----
+0-0-0-MISSING,03903,----,St Angelo,United Kingdom,54-24N,007-39W,47,----,----
+0-20000-0-03904,03904,----,Castlederg,United Kingdom,54-42-24N,007-34-41W,49,1994-12-02,----
+0-0-0-MISSING,03906,----,Carmoney,United Kingdom,55-01N,007-14W,73,----,----
+0-20000-0-03907,03907,----,Magilligan No 2,United Kingdom,55-09-37N,006-56-53W,6,2011-08-04,----
+0-0-0-MISSING,03908,----,Ballykelly,United Kingdom,55-04N,007-01W,2,----,----
+0-20000-0-03911,03911,----,Lough Fea,United Kingdom,54-43-14N,006-48-54W,225,1966-01-01,----
+0-0-0-MISSING,03912,----,Moyola,United Kingdom,54-43N,006-31W,17,----,----
+0-0-0-MISSING,03914,----,Portrush,United Kingdom,55-12N,006-39W,8,----,----
+0-20000-0-03915,03915,----,Portglenone,United Kingdom,54-51-55N,006-27-29W,64,1993-01-02,----
+0-20000-0-03916,03916,----,Ballypatrick Forest,United Kingdom,55-10-50N,006-09-16W,156,1969-01-01,----
+0-20008-0-ALD,03917,EGAA,Belfast / Aldergrove Airport,United Kingdom,54-39-47N,006-13-32W,82,1948-10-01,----
+0-20000-0-03918,03918,----,Castor Bay,United Kingdom,54-30-00N,006-19-59W,18,2014-11-01,----
+0-0-0-MISSING,03918,----,Castor Bay,United Kingdom,54-30-00N,006-19-59W,18,2003-01-01,2014-11-01
+0-826-0-03920,03920,----,Hillsborough,United Kingdom,54-29-06N,006-05-53W,38,1948-01-01,2003-11-10
+0-20000-0-03923,03923,----,Glenanne,United Kingdom,54-14-12N,006-30-14W,161,1985-02-07,----
+0-0-0-MISSING,03924,EGAC,Belfast / Harbour,United Kingdom,54-36N,005-53W,5,----,----
+0-0-0-MISSING,03926,----,Killough,United Kingdom,54-14N,005-37W,15,----,----
+0-0-0-MISSING,03927,----,Bangor Harbour,United Kingdom,54-40N,005-40W,11,----,----
+0-0-0-MISSING,03928,----,Larne,United Kingdom,54-51N,005-48W,3,----,----
+0-20000-0-03628,03930,----,Almondsbury,United Kingdom,51-33-05N,002-33-33W,75,2019-05-07,----
+0-20000-0-03931,03931,----,Tibenham Airfield,United Kingdom,52-27-23N,001-09-43E,52,2019-05-07,----
+0-20000-0-61979,61979,----,Le Colorado,United Kingdom,20-54S,055-26E,743,----,----

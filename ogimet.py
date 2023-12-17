@@ -14,6 +14,10 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 
+class RequestDataFailed(Exception):
+    pass
+
+
 class Downloader():
     """docstring for Downloader."""
 
@@ -48,6 +52,9 @@ class Downloader():
         except IndexError as e:
             logger.error(f"Error- no table found: {e}")
             raise e
+        except AttributeError as e:
+            logger.error(f"requestData failed: {e}")
+            raise e
 
         logger.debug(f"Returning table={table}")
         return table
@@ -58,13 +65,13 @@ class Downloader():
         logger.debug(f"attempt={attempt}")
 
         if attempt == 0:
-            return None
+            raise RequestDataFailed
 
         try:
             page = requests.get(link, timeout=5)
-        except requests.exceptions.ReadTimeout:
-            return self.requestData(link, attempt=attempt - 1)
-        except requests.exceptions.ConnectTimeout:
+        except (requests.exceptions.ReadTimeout, \
+                requests.exceptions.ConnectionError, \
+                requests.exceptions.ConnectTimeout):
             return self.requestData(link, attempt=attempt - 1)
 
         logger.debug(f"Returned content = {page.content[:100]}")
@@ -77,8 +84,8 @@ class Downloader():
         return tree
 
 
-    def running_all(self, end_year, end_month, start_year=2000, start_month=1, stationid="", location=os.getcwd()) -> bool:
-        logger.info(f"Downloading data for station={stationid}, {start_year}-{start_month} to {end_year}-{end_month}")
+    def running_all(self, end_year, end_month, start_year=2000, start_month=1, stationid="", location=os.getcwd()):
+        logger.info(f"Downloading data for station={stationid}, {start_year}-{start_month} to {end_year}-{end_month}\n" + "=" * 32)
         self.stationid = stationid
 
         # Make dir
@@ -95,8 +102,13 @@ class Downloader():
 
         success = True
         for m in self.month_iter(start_month, start_year, end_month, end_year):
-            print("running " + m[1].__str__() + "-" + m[0].__str__() )
-            success = success & self.writeData(m[1], m[0])
+            try:
+                success = success & self.writeData(m[1], m[0])
+            except RequestDataFailed as e:
+                logger.critical(f"RequestData failed. Is the internet down? Cleaning up {outdir} and stopping.")
+                shutil.rmtree(outdir)
+                raise e
+
 
         if not success:
             logger.critical(f"Processing failed. Cleaning up {outdir}")
@@ -147,7 +159,10 @@ class Downloader():
         try:
             table = self.tryGetTable(year, month)
         except IndexError:
-            # No data for this year/month
+            # No data for this year/month - return true since we don't need to revisit this
+            return True
+        except AttributeError:
+            # Something else has gone wrong - try again later
             return False
 
         colnames = self.getcolum(table)
@@ -155,7 +170,7 @@ class Downloader():
         logger.debug(f"Found column names: {colnames}")
 
         if len(colnames) <= 3:
-            return False
+            return True
 
         assert len(colnames) <= 11, colnames
 
@@ -180,7 +195,8 @@ class Downloader():
             
             # Check percentage is a percentage
             if "Hr.Avg(%)" in data:
-                assert 0.0 <= float(data["Hr.Avg(%)"]) <= 100.0, data["Hr.Avg(%)"]
+                if data["Hr.Avg(%)"] != "-----":
+                    assert 0.0 <= float(data["Hr.Avg(%)"]) <= 100.0, data["Hr.Avg(%)"]
 
             name = self.sep + 'data' + year.__str__() + '-' +\
             "%02d" % month + '-' + data['Date'].split("/")[1] + '.csv'

@@ -1,26 +1,9 @@
 # Ogimet
-Python script to download weather data
 
-Usage:
-1. Make sure you have Python3 installed on you computer
-2. Install the requred module :
+Based on the original repo at https://github.com/iuiuiu-wayy/Ogimet
 
- pip3 install -r requirements.txt
+I have created a CSV of all UK weather stations available on ogimet.
 
-3. Download your data :
+Running the script `download_all_scotland.py` then automatically locates all highland weather stations, and attempts to download daily weather data from all these stations from 2000 to 2021. I have mmade quite a few robustness improvements so if this fails for any reason then you can just restart the script and it will continue where it left off (partially filled folders for a particular month should be deleted manually).
 
-python ogimet.py (end-year) (end-month) (start-year) (start-month) (stationid)
-
-python ogimet.py 2019 5 2019 1 97240
-
-
-If you find any error, feel free to contact me
-
-email : wahyu.amanullah@gmail.com
-
-have a nice day :)
-
-
-
-
-WARNING!!!!: DO NOT OPEN THE FILE WHILE DOWNLOADED!!!!
+Dependencies in requirements.txt

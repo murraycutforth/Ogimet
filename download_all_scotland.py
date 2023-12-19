@@ -1,10 +1,9 @@
 from pathlib import Path
 import logging
 from datetime import datetime
+
 from tqdm import tqdm
-
 import pandas as pd
-
 from ogimet import Downloader
 
 logger = logging.getLogger(__name__)

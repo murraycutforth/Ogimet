@@ -1,14 +1,15 @@
 import shutil
-
-import requests
-from lxml import html
+import time
 from calendar import monthrange
-from dateutil.rrule import rrule, MONTHLY
-from datetime import datetime
 import os
 from sys import argv
 import logging
 from pathlib import Path
+from datetime import datetime
+
+import requests
+from lxml import html
+from dateutil.rrule import rrule, MONTHLY
 
 
 logger = logging.getLogger(__name__)
@@ -60,7 +61,7 @@ class Downloader():
         return table
 
 
-    def requestData(self,link, attempt=5):
+    def requestData(self,link, attempt=10):
         logger.debug(f"Calling requestData on {link}")
         logger.debug(f"attempt={attempt}")
 
@@ -72,6 +73,7 @@ class Downloader():
         except (requests.exceptions.ReadTimeout, \
                 requests.exceptions.ConnectionError, \
                 requests.exceptions.ConnectTimeout):
+            time.sleep(5)
             return self.requestData(link, attempt=attempt - 1)
 
         logger.debug(f"Returned content = {page.content[:100]}")
